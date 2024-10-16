@@ -1,0 +1,105 @@
+@import url(reset.css);
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.main-container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* TODO: update during responsiveness */
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.left-side {
+  background-color: #0f1111;
+}
+
+.right-side {
+  background-color: #0ac9c9;
+}
+
+.left-side,
+.right-side {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10rem 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side-content {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.left-side h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .button-div {
+    gap: 1rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-button {
+  background-color: red;
+  color: #f1eeea;
+  padding: 0.5rem 3rem;
+}
+
+.quote-button2 {
+  background-color: #f1eeea;
+  color: #0c0c0c;
+  padding: 0.5rem 3rem;
+  text-decoration: none;
+}
+
+#frelancer {
+  width: 300px;
+}

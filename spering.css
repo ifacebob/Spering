@@ -1,0 +1,53 @@
+@import url(reset.css);
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #0c0c0c;
+  background: linear-gradient(90deg, #0c0c0c 55%, #12b1b1 50%);
+  color: #fff;
+}
+  .right-main-section {
+    margin-left: 65%;
+    width: 300px;
+    /* position: relative; */
+    margin-to: 60%;
+  }
+
+.nav_logo{
+  display: inline-flex;
+  text-decoration: none;
+  margin: 1.5rem;
+}
+
+span {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding-left: 5rem;
+  padding-right: 63rem;
+}
+
+
+p{
+  padding-left: 5rem;
+  padding-right: 55rem;
+  text-align: justify;
+}
+
+
+.about-button {
+  background-color: red;
+  color:#f1eeea;
+}
+
+.quote-button2{
+  background-color: #f1eeea;
+  color: #0c0c0c;
+padding: 1rem;
+}
